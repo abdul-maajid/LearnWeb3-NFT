@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "slither": "slither ./contracts --solc-remaps '@openzeppelin=node_modules/@openzeppelin' --exclude naming-convention,external-function,low-level-calls --buidler-ignore-compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
